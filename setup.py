@@ -5,9 +5,9 @@ with open("README.md", 'r',encoding='utf-8') as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME='PythonSetup'
+REPO_NAME="<REPO_NAME>"
 AUTHOR_USER_NAME='cr21'
-SRC_REPO='PythonSetup'
+SRC_REPO="<REPO_NAME>"
 AUTHOR_EMAIL ='cr.tagadiya@gmail.com'
 
 setuptools.setup(

@@ -19,18 +19,19 @@ logging.info(f"Creating Project {project_name}")
 
 # list of files we want to create
 
-list_of_files =[ ".github/workflows/.gitkeep",
+list_of_files =[ 
+                #".github/workflows/.gitkeep",
                  f"src/{project_name}/__init__.py", # basic project source directory
-                 f"tests/__init__.py",
-                 f"tests/unit/__init__.py",
-                 f"tests/integration/__init__.py",
-                 "init_setup.sh",# basic environ set up
-                "requirements.txt",# Production requirement txt
-                "requirements_dev.txt",# developer and Testing requirements.txt
-                "setup.py",
-                "pyproject.toml",
-                'setup.cfg',
-                "tox.ini"# Tested should be on various environemnt
+                #  f"tests/__init__.py",
+                #  f"tests/unit/__init__.py",
+                #  f"tests/integration/__init__.py",
+                #  "init_setup.sh",# basic environ set up
+                # "requirements.txt",# Production requirement txt
+                # "requirements_dev.txt",# developer and Testing requirements.txt
+                # "setup.py",
+                # "pyproject.toml",
+                # 'setup.cfg',
+                # "tox.ini"# Tested should be on various environemnt
 ]
 
 
