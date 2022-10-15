@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/PythonSetup.egg-info/PKG-INFO
+src/PythonSetup.egg-info/SOURCES.txt
+src/PythonSetup.egg-info/dependency_links.txt
+src/PythonSetup.egg-info/requires.txt
+src/PythonSetup.egg-info/top_level.txt
+src/python_basic_setup/__init__.py
